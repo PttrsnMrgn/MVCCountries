@@ -18,7 +18,7 @@ namespace MvcCountries
         {
             Console.Clear();
             string colors = "";
-            DisplayCountry.Colors.ForEach(x => colors += x + ", ");
+            DisplayCountry.Colors.ForEach(x => colors += x + " ");
 
             Console.BackgroundColor = DisplayCountry.FlagBackground[0];
             Console.ForegroundColor = DisplayCountry.FlagForeground[0];
